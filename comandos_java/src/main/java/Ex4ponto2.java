@@ -1,23 +1,23 @@
-import java.util.Scanner; //Para o usuario colocar o que ele quer\\
+import java.util.Scanner;
 
 public class Ex4ponto2 {
 
+    public static void main(String[] args) {
 
-
-
-        public static void main(String[] args) {
+        float peso;
+        float Altura;
 
             Scanner entrada = new Scanner(System.in);
 
             System.out.print("Entre com o seu peso (kg): ");
-            float peso = entrada.nextFloat();
+             peso = entrada.nextFloat();
 
             System.out.print("Entre com a sua altura (m): ");
             float altura = entrada.nextFloat();
 
-            float imc = peso / (altura * altura);
+            float imc = peso /(altura * altura);
 
-            System.out.printf("Seu IMC é: %.2f\n", imc);
+            System.out.println("Seu IMC: "+ imc);
 
             if (imc < 18.5) {
                 System.out.println("Você está abaixo do peso.");
