@@ -9,5 +9,8 @@ public class Ex10 {
         for(n = 0; n <= 70; n += 7){
             System.out.println(n);
         }
+        for (n =0 ; n <=50; n+= 5){
+            System.out.println(n);
+        }
     }
 }

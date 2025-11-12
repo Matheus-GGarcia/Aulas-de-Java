@@ -8,7 +8,6 @@ public class Ex11 {
             int tabuada;
 
 
-
             Scanner entrada = new Scanner(System.in);
             System.out.println("Digite o Numero da Tabuada");
             tabuada = entrada.nextInt();
